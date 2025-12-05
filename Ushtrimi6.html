@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+</head>
+<body>
+    
+    <h1>fillimi</h1>
+
+
+    <hr>
+
+
+    <h5>detyra 1 - emri,mbiemri</h5>
+    
+    <button onclick="
+    let emri = prompt('Shkruaj emrin:');
+    let mosha = prompt('Shkruaj mosha:');
+    alert('Emri: ' + emri + ' | Mosha: ' + mosha);
+    ">Kliko ktu</button>
+
+<hr>
+
+<h5>detyra 2 - shuma e dy numrave</h5>
+
+<button onclick="
+let n1 = Number(prompt('Shkruaj numrin e par:'));
+let n2 = Number(prompt('Shkruaj numrin e dyt:'));
+let shuma = n1 + n2;
+alert('Shuma eshte: ' + shuma);
+">Llogarit Shumen</button>
+
+<hr>
+
+
+<h5>detyra 3 - tek apo qift</h5>
+
+<button onclick="
+let num = Number(prompt('Shkruaj nje numer:'));
+if (num % 2 === 0) {
+alert('Numri eshte çift');
+} else {
+alert('Numri eshte tek');
+}
+">Tek apo Çift</button>
+
+<hr>
+
+<h5>detyra 4 - bashkimi i dy fjalve</h5>
+
+<button onclick="
+let f1 = prompt('Shkruaj fjalen e pare:');
+let f2 = prompt('Shkruaj fjalen e dyte:');
+alert('Fjalia: ' + f1 + ' ' + f2);
+">Bashko Fjalet</button>
+
+
+<hr>
+
+<h5>detyra 5 - Perserit fjalen</h5>
+
+<button onclick="
+let fjala1 = prompt('Shkruaj fjalen e pare:');
+let fjala2 = prompt('Shkruaj fjalen e dyte:');
+alert('Fjala e përsëritur është: ' + fjala1 + ' ' + fjala2);
+">Perserit Fjalen</button>
+
+
+<hr>
+
+
+<h5>detyra 6 - mengjesi</h5>
+
+<button onclick="
+let ushqimi = prompt('Çfare hengre per mengjes?');
+let pija = prompt('Çfare pive per mengjes?');
+alert('Ti hengre ' + ushqimi + ' dhe pive ' + pija + '.');
+">Qfare hengre per mengjes?</button>
+
+<hr>
+<h1>fund
+    
+</h1>
+</body>
+</html>
