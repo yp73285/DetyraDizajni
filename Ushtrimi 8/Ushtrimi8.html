@@ -90,7 +90,7 @@
         document.getElementById("slideshow").src = imgArray[i];
       }
       function prevImg() {
-        i = (i - 1) % imgArray.length;
+        i = (i - 1 + imgArray.length) % imgArray.length;
          document.getElementById("slideshow").src = imgArray[i];
       }
     </script>
